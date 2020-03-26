@@ -47,7 +47,7 @@ section .title span a {
   text-decoration: none;
   color: #f7ca18;
 }
-section .title span a::after {
+/* section .title span a::after {
   content: "";
   height: 0.067vw;
   background-color: #f7ca18;
@@ -56,7 +56,7 @@ section .title span a::after {
   left: 0;
   width: 0;
   animation: linkAfter 0.5s 1s ease both;
-}
+} */
 @-moz-keyframes pop {
   0% {
     transform: translateY(100%);
@@ -160,10 +160,6 @@ section .title span a::after {
 
 .me {
   padding-top: 15px;
-  padding-bottom: 15px;
-}
-
-.social-midias {
   padding-bottom: 15px;
 }
 
